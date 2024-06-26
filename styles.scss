@@ -1,0 +1,64 @@
+$primary-color: #f5a623;
+$secondary-color: #a23377;
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about-us {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    p.lead {
+        font-size: 1.25rem;
+    }
+}
+
+.teachers {
+    .card {
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.contact {
+    background-color: $secondary-color;
+    color: white;
+    padding: 3rem 0;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    form {
+        .form-control {
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #4e73df;
+            border-color: #4e73df;
+        }
+    }
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+}
